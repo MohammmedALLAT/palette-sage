@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎨 Palette Sage
 
-# Run and deploy your AI Studio app
+**Palette Sage** is a sleek and intuitive web app that helps designers, developers, and creatives generate, explore, and manage beautiful color palettes effortlessly.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1e1pV8ytzsmtjhKvoTvGXMxLwA8QsmKzp
+## 🌟 Features
 
-## Run Locally
+- 🎨 Generate harmonious color palettes instantly  
+- 🔍 Extract palettes from uploaded images  
+- 💾 Save and manage your favorite palettes  
+- 📋 Copy HEX / RGB / HSL values in one click  
+- 🌗 Light & Dark mode support  
 
-**Prerequisites:**  Node.js
+---
 
+## 🚀 Live Demo
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+👉 [Visit Palette Sage on Vercel](https://palette-sage.vercel.app) *(coming soon)*
+
+---
+
+## 🧠 How It Works
+
+Palette Sage uses intelligent color extraction and contrast algorithms to ensure every palette is both **aesthetically pleasing** and **accessible**.
+
+If your project integrates APIs (e.g., color extraction or image analysis), you can easily configure them using environment variables in your Vercel dashboard.
+
+---
+
+## ⚙️ Environment Variables (if using APIs)
+
+If your app needs any API keys (for example, OpenAI, ColorMind, or Unsplash), create a `.env.local` file in your project root and define:
+
+```bash
+API_KEY=your_api_key_here
+API_URL=https://api.example.com
