@@ -1,0 +1,5 @@
+{
+  "name": "Palette Sage",
+  "description": "Generate a beautiful color palette from a theme or mood with Palette Sage. Enter a phrase like 'calm forest' or 'retro arcade' and get a set of 5-6 hex colors with names and descriptions for your design projects.",
+  "requestFramePermissions": []
+}
